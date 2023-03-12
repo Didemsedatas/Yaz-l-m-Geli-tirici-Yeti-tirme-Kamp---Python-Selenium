@@ -1,0 +1,28 @@
+# 1)Python veri türleri 
+Sayılar (int, float, complex): tam sayı(int), ondalık sayı(float),karmasık sayılar(complex)
+Karakter (String): str, metinsel ifade.
+Liste (List): degistirebilir bir sıralı veri türüdür. []
+Tuple: değiştirilemez bir sıralı veri türüdür.  Listelere göre farkı sadece okunabilir (read-only) modda olmasıdır. Öğe sayısı arttırılamaz ve güncellenemezler.
+Bool:Mantıksal bir veri tipidir.boolean, True ve False olmak üzere iki değere sahiptir.Girilen ifade doğru iseTrue,yanlış ise False değeri karşılık gelir. x=True x=False
+Dictionary: 
+
+# 2) Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+
+Karakter (String): tüm metinsel ifadeler, kurs isimleri, kullanıcı adı, şifre vs..
+Sayılar (int, float, complex): kurs tamamlanma oranı,yorum sayısı, ders numaraları, tarihler
+Bool: ödev yapıldığında veya ders izlendiğinde(TRUE) tik koyulur, tam tersi durumda(FALSE) ise koyulmaz.
+
+# 3) Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz.
+
+kullanıcı adı, sifre ile giris yapmak
+//sedabilgileri
+kullaniciadi="sedatest"
+sifre=12345
+
+kullaniciadi_giris=input("kullanıcı adınızı giriniz")
+sifre_giris = int(input("sifre giriniz"))
+
+if(kullaniciadi==kullaniciadi_giris and sifre==sifre_giris):
+    print("hosgeldiniz.")
+else:
+    print("hatalı giriş yaptınız.")
